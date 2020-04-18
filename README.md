@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website has specific layouts given a specific screen size, while responsive layouts automatically adapt its layout to a variety of screen sizes. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is when you create a user interface that, by default, is made for smaller devices. Then, once creating the default styles, you go up in size; tablet, laptop, etc. On the other hand, desktop first is when a programmer would create an interface with a larger size and then go down to for example a tablet then phone. Both are done using media queries, however mobile first would be done by @media (min-width “#”) and desktop first would be @media (max-width: “#”).
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Using font-size: 62.5% in the html element takes a percent of the original pixel size, 16px. What is left over is about 10px. So this makes rem units go in 10px intervals. 1.6 rem would be 16 px.  
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessors are a language that adds features to existing CSS. It makes writing code easier to understand, faster, and neater. This can be done through the many capabilities when using preprocessing, such as variables, nesting, mixins, mathematics, and functions.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concepts in preprocessing are mixins and variables. I think it is very useful to use when you have multiple elements that have the same styling or attributes. The concept that gives me the most trouble are less functions because I haven’t used it enough. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

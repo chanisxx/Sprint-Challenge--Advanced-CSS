@@ -1,1 +1,16 @@
 // Mixins Here
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-p (@font-size; @color; @padding; @background-color; @border-radius; @margin) {
+    font-size: @font-size;
+    color: @color;
+    padding: @padding;
+    background-color: @background-color;
+    border-radius: @border-radius;
+    margin: @margin;
+}
